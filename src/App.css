@@ -4,6 +4,26 @@
     box-sizing: border-box;
 }
 
+html, body {
+    width: 100%;
+    min-height: 100vh;
+}
+
+#root {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    font-family: 'Manrope', sans-serif;
+    background: var(--background);
+    color: var(--text-primary);
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
 :root {
     --primary: #1a3a52;
     --secondary: #2d5f7f;
